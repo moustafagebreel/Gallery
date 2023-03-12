@@ -1,0 +1,441 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+  
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gallery</title>
+  
+    <link rel="stylesheet" href="./CSS/style.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+ 
+
+  </head>
+  <body>
+   <!-- navbar -->
+   <nav class="navbar navbar-expand-lg navbar-light bg-black  sticky-top " style="opacity:0.7" >
+    <div class="container-fluid">
+<input type="image" src="./image/nike.jpg" class="me-3 rounded-circle" height="60px" width="60px">
+      <a class="navbar-brand text-secondary" href="#" style="border-right:1px solid #e5d4d4; padding-right: 10px; font-weight: bold;">MOGEBREEL</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Gallary</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Explore
+            </a>
+            <ul class="dropdown-menu text-bg-dark text-info"  aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item text-info" target="_blank" href="">Discover</a></li>
+              <li><a class="dropdown-item text-info" target="_blank" href=""> Popular</a></li>
+              <li><hr class="dropdown-divider text-info"></li>
+              <li><a class="dropdown-item text-info " target="_blank" href="">Leaderboard</a></li>
+              <li><a class="dropdown-item text-info" target="_blank" href="" >Challenges</a></li>
+              <li><a class="dropdown-item text-info" target="_blank" href="">video</a></li>
+              
+
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled text-light">About</a>
+          </li>
+        </ul>
+        <form class="d-flex w-100"> 
+            
+          <input class="form-control me-4 "type="search" placeholder="Search for free photo"  aria-label="Search">
+          
+          <button class="btn btn-outline-light me-4 icon" type="submit">Search</button>
+        </form>
+        <form class="d-flex">
+          <button class="btn btn-outline-light" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Login</button>
+          
+        </form>
+        
+      </div>
+    </div>
+  </nav>
+      <!-- /navbar -->
+      <div class="container-fluid  p-0">
+      <!-- carousel -->
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+         
+
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./image/3.jpg" class="d-block w-100  small">
+            <div class="carousel-caption">
+              <h1> just Smile</h1>
+              <a href="" class="btn btn-danger" target="_blank">view More </a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./image/8.jpg" class="d-block w-100 small">
+            <div class="carousel-caption">
+              <h1>simple Life </h1>
+              <a href="" class="btn btn-primary" target="_blank">view More </a>
+            </div>
+
+            
+            
+          </div>
+          <div class="carousel-item">
+            <img src="./image/7.jpg" class="d-block w-100 small" alt="pic3">
+            <div class="carousel-caption">
+              <h1>Sister </h1>
+              <a href="" class="btn btn-success" target="_blank">view more </a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./image/10.jpg" class="d-block w-100 small"  alt="pic4">
+            <div class="carousel-caption">
+              <h1>cute </h1>
+              <a href="" class="btn btn-secondary" target="_blank">view more </a>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+            <!-- /carousel -->
+            <!-- cards -->
+            <div class="card p-4 bg-dark  text-white text-center " style="border-top-left-radius: 0; border-top-right-radius:0 ;">
+              <div class="card-body">
+                <h2 class="card-title">Welcome</h2>
+                <p class="card-text">Free Stock Photos</p>
+                <a href="#" class="btn btn-danger  text-black mt-4">view more </a>
+              </div>
+            </div>
+          <!-- /cards -->
+<hr>
+<!-- collapse Accordion-->
+<h1 class="text-center text-light bg-black p-4 m-0 ">Discover the Best of Gallary </h1>
+<div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingOne">
+      <button class="accordion-button collapsed btn-outline-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        Photography Topics
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        Food Photography this is one of discover..!      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed btn-outline-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Popular Collections
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        Flower Images is one of popular Flower..!   </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed btn-outline-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Backgrounds And Cover Photos
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+       .   Backgrounds And Cover Photos it one of bg wow !   </div>
+    </div>
+  </div>
+</div>
+<!-- /collapse -->
+<hr>
+<!-- card2 -->
+<h1 class="text-center text-light bg-body-emphasis p-3 m-0 ">Photography Topics is the best. </h1>
+<div class="card bg-dark" >
+  <div class="card-body">
+    <h4 class="text-light">Download it from  <a href="https://www.pexels.com/discover/" target="_blank">Click Here</a></h4>
+    
+    <pre>
+      <picc class="text-info" id="mypython">
+      <img src="./image/11.jpg" width="320px" alt="">
+      </picc>
+    </pre>
+  </div>
+</div>
+<!-- /card2 -->
+<hr>
+<!-- card2 -->
+<h1 class="text-center text-light bg-black p-3 m-0 ">Popular is the best photo of this topic.</h1>
+<div class="card bg-dark" >
+  <div class="card-body">
+    <h4 class="text-light">Download it  from <a href="https://www.pexels.com/search/flowers/" target="_blank">Click Here</a></h4>
+  <>
+    <pre>
+     <img src="./image/18.jpg" width="320px" alt="">
+    </pre>
+  </div>
+</div>
+<!-- /card2 -->
+<hr>
+<!-- card2 -->
+<h1 class="text-center text-light bg-black p-3 m-0 ">Beautiful Zoom Backgrounds</h1>
+<div class="card bg-dark" >
+  <div class="card-body">
+    <h4 class="text-light">Download it  from <a href="https://www.pexels.com/collections/beautiful-zoom-backgrounds-5ddk9ze/" target="_blank">Clik Here</a></h4>
+   
+    <pre>  
+    <img src="./image/14.jpg" width="350px"  alt="">
+    </pre>
+  </div>
+</div>
+<!-- /card2 -->
+<hr class="my-4">
+<div class="fixedimg fixedimg1"></div>
+<!-- Gallary  -->
+<h2 class="text-center text-white m-4"> Gallary</h2>
+<div class="container-fluid">
+  <div class="row justify-content-around pb-5 " style="background-color: #555; border-radius: 7px;">
+    <!-- CAT CARD -->
+    <div class="card bg-dark text-light col-lg-3 col-md-4 col-sm-6 m-1 mt-5"  style="width: 18rem;">
+      <a href="" target="_blank">
+      <img src="./image/21.jpg" class="card-img-top" alt="html pic"></a>
+      <div class="card-body">
+        <h5 class="card-title">Cat</h5>
+        <p class="card-text">taken by moustafa gebreel</p>
+        <a href="" class="btn btn-primary">Show Full Screen</a>
+      </div>
+    </div>
+    <!-- /Cat card -->
+    <!-- train card -->
+    <div class="card bg-dark text-light col-lg-3 col-md-4 col-sm-6 m-1 mt-5"  style="width: 18rem;">
+      <a href="" target="_blank">
+      <img src="./image/23.jpg" class="card-img-top" alt="css pic"></a>
+      <div class="card-body">
+        <h5 class="card-title">Train</h5>
+        <p class="card-text">taken by moustafa gebreel</p>
+        <a href="" class="btn btn-primary">Show Full Screen</a>
+      </div>
+    </div>
+    <!-- /css card -->
+     <!-- js card -->
+     <div class="card bg-dark text-light col-lg-3 col-md-4 col-sm-6 m-1 mt-5"  style="width: 18rem;">
+      <a href="" target="_blank">
+      <img src="./image/30.jpg" class="card-img-top" alt="css pic"></a>
+      <div class="card-body">
+        <h5 class="card-title">Modael</h5>
+        <p class="card-text">taken by moustafa gebreel</p>
+        <a href="" class="btn btn-primary">Show Full Screen</a>
+      </div>
+    </div>
+    <!-- /JS card -->
+   
+    <div class="card bg-dark text-light col-lg-3 col-md-4 col-sm-6 m-1 mt-5"  style="width: 18rem;">
+      <a href="" target="_blank">
+      <img src="./image/40.jpg" class="card-img-top" ></a>
+      <div class="card-body">
+        <h5 class="card-title">Actor</h5>
+        <p class="card-text">taken by moustafa gebreel</p>
+        <a href="" class="btn btn-primary">Show Full Screen</a>
+      </div>
+    </div>
+   
+    <div class="card bg-dark text-light col-lg-3 col-md-4 col-sm-6 m-1 mt-5"  style="width: 18rem;">
+      <a href="" target="_blank">
+      <img src="./image/27.jpg" class="card-img-top "></a>
+      <div class="card-body">
+        <h5 class="card-title">caset</h5>
+      
+        <p class="card-text">taken by moustafa gebree l</p>
+        <a href="" class="btn btn-primary">Show Full Screen</a>
+      </div>
+    </div>
+    
+    <div class="card bg-dark text-light col-lg-3 col-md-4 col-sm-6 m-1 mt-5"  style="width: 18rem;">
+      <a href="" target="_blank">
+      <img src="./image/16.jpg" class="card-img-top" ></a>
+      <div class="card-body">
+        <h5 class="card-title">boy</h5>
+        <p class="card-text">taken by moustafa gebreel</p>
+        <a href="" class="btn btn-primary">Show Full Screen</a>
+      </div>
+    </div>
+    <div class="card bg-dark text-light col-lg-3 col-md-4 col-sm-6 m-1 mt-5"  style="width: 18rem;">
+      <a href="" target="_blank">
+      <img src="./image/9.jpg" class="card-img-top" ></a>
+      <div class="card-body">
+        <h5 class="card-title">young</h5>
+        <p class="card-text">taken by moustafa gebreel</p>
+        <a href="" class="btn btn-primary">Show Full Screen</a>
+      </div>
+    </div>
+   
+</div>
+</div>
+
+<div class="fixedimg fixedimg2"></div>
+<hr class="my-4">
+<!--  card-->
+<h2 class="text-center text-light m-3" >Thanks For</h2>
+<div class="container-fluid">
+  <div class="row justify-content-center">
+    <div class="card m-3 bg-dark text-light" style="width: 20rem;" >
+      <img src="./image/1650237612401.jpg" class="card-img-top" alt="memo">
+      <div class="card-body">
+        <p class="card-text">moustafa gebreel</p>
+      </div>
+    </div>
+    <div class="card m-3 bg-dark text-light" style="width: 20rem;">
+      <img src="./image/1646929485643 (1).jpg" class="card-img-top">
+      <div class="card-body">
+        <p class="card-text">moustafa gebreel ahmed</p>
+      </div>
+    </div>
+    <div class="card m-3 bg-dark text-light" style="width: 20rem;">
+      <img src="./image/50.jpg" class="card-img-top">
+      <div class="card-body">
+        <p class="card-text">moustafa gebreel</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- /thanks card-->
+<hr class="my-4">
+<!-- join us -->
+<h2 class="text-center text-light">Join Us</h2>
+<div class="container-fluid">
+  <div class="row justify-content-center">
+    <div class="card m-3 bg-dark" style="width: 18rem;">
+      <div class="card-body text-light d-flex flex-column  text-center">
+        <h6 class="card-title mb-4">Subscribe Now
+        </h6>
+        <input class="myicon mb-2" style="align-self: center;" src="./image/facebook.png" type="image" alt="facebook">
+        <a href="" target="_blank" class="card-link">FAcebook</a>
+      </div>
+    </div>
+    <div class="card m-3 bg-dark" style="width: 18rem;">
+      <div class="card-body text-light d-flex flex-column text-center">
+        <h6 class="card-title mb-4">Follow 
+        </h6>
+        <input class="myicon mb-2" style="align-self: center;" src="./image/insta.jfif" type="image" alt="facebook">
+        <a href="" target="_blank" class="card-link">Instgram</a>
+      </div>
+    </div>
+    <div class="card m-3 bg-dark" style="width: 18rem;">
+      <div class="card-body text-light d-flex flex-column text-center">
+        <h6 class="card-title mb-4">Twitter
+        </h6>
+        <input class="myicon mb-2" style="align-self: center;" src="./image/twitter.png" type="image" alt="facebook">
+        <a href="" target="_blank" class="card-link">Twitter</a>
+      </div>
+    </div>
+    <div class="card m-3 bg-dark" style="width: 18rem;">
+      <div class="card-body text-light d-flex flex-column text-center">
+        <h6 class="card-title mb-4">watch vedios
+        </h6>
+        <input class="myicon mb-2" style="align-self: center;" src="./image/you.jpg" type="image" alt="facebook">
+        <a href="" target="_blank" class="card-link ">Watch </a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- /join us -->
+<!-- footer -->
+<footer class="bg-dark text-light mt-5 p-2 pb-5 ">
+<div class="container-fluid">
+  <div class="row text-center">
+    <div class="col-md-4">
+      <hr class="border-top my-3">
+      <h5><img src="./image/facebook.png" alt="good pic" class="myicon"> Facebook</h5>
+      <hr class="border-top my-3">
+      <address>
+        <p>Tel : 01064334994</p>
+        <p>Address : EGYPT</p>
+        <p>Fax : 999-999-999</p>
+      </address>
+    </div>
+    <div class="col-md-4">
+      <hr class="border-top my-3">
+      <h5><img src="./image/you.jpg" alt="good pic" class="myicon">  Some links</h5>
+      <hr class="border-top my-3">
+        <p><a href="" target="_blank">Visit Us</a></p>
+        <p><a href="" target="_blank">Take alook</a></p>
+        <p><a href="" target="_blank">Your nice!</a></p>
+    </div>
+    <div class="col-md-4">
+      <hr class="border-top my-3">
+      <h5><img src="./image/insta.jfif" alt="good pic" class="myicon"> Reels</h5>
+      <hr class="border-top my-3">
+        <p>photo for all </p>
+        <p>best photo</p>
+        <p>sell photo</p>
+    </div>
+  </div>
+</div>
+<hr>
+<span class="text-center d-block text-secondary">Copyright &copy; 2023 moustafa gebreel </span>
+<hr>
+<!-- /footer -->
+<!-- modal -->
+<!-- Button trigger modal -->
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title text-secondary" id="staticBackdropLabel">Login</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <!-- form -->
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label text-secondary">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label text-secondary">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3 form-check">
+            <div class="form-check form-switch">
+              <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+              <label class="form-check-label text-secondary" for="flexSwitchCheckChecked">Remmember me</label>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary">Login</button>
+        </form>
+        <!-- /form -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- /modal -->
+</div> <!-- container-fluid div -->
+    <!-- js -->
+    <script src="./JS/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
